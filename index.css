@@ -1,0 +1,82 @@
+
+@import url('http://fonts.cdnfonts.com/css/hauser');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    
+    overflow: hidden;
+    background-image: url('https://images.unsplash.com/photo-1531533748270-34089046fb49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: 'Hauser', sans-serif;
+    
+    /* font-family: 'Hauser Condensed', sans-serif; */
+                                                
+                                                
+}
+.glass-view{
+    margin:50px;
+    padding: 30px;
+    background-color: #ffffff40;
+     /* it gives a translucent look */
+     backdrop-filter:blur(10px) ;
+     /* to blur the image */
+    border-radius: 10px;
+    height: 90%;
+    /* color: black; */
+    
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 4px;
+    
+}
+.nav a{
+    text-decoration: none;
+    /* color:#6C63FF; */
+    margin: 0px 10px; 
+
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:inherit;
+    padding: 0 20px;
+    letter-spacing: 2px;
+
+}
+.content h2{
+   font-size: 2rem;
+}
+.content p {
+   max-width: 500px;
+}
+.content button{
+    padding: 10px 30px;
+    font-size: 1rem;
+    border:0;
+    border-radius: 10px;
+    background-color: #6C63FF;
+    color:white;
+    margin-top: 30px;
+    
+}
+.img-container{
+     max-width: 500px;   
+}
+.img-container img{
+    width:100%;
+}
